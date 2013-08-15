@@ -18,6 +18,7 @@
 		B12DB09D17BD084300B0951F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B12DB09C17BD084300B0951F /* Default-568h@2x.png */; };
 		B12DB0A017BD084300B0951F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12DB09E17BD084300B0951F /* MainStoryboard.storyboard */; };
 		B12DB0A317BD084300B0951F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12DB0A217BD084300B0951F /* ViewController.m */; };
+		B1E7321817BD1217000E0BF4 /* CalcBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E7321717BD1217000E0BF4 /* CalcBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		B12DB09F17BD084300B0951F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B12DB0A117BD084300B0951F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B12DB0A217BD084300B0951F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B1E7321617BD1217000E0BF4 /* CalcBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcBrain.h; sourceTree = SOURCE_ROOT; };
+		B1E7321717BD1217000E0BF4 /* CalcBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcBrain.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		B12DB08C17BD084300B0951F /* Calc */ = {
 			isa = PBXGroup;
 			children = (
+				B1E7321617BD1217000E0BF4 /* CalcBrain.h */,
+				B1E7321717BD1217000E0BF4 /* CalcBrain.m */,
 				B12DB09517BD084300B0951F /* AppDelegate.h */,
 				B12DB09617BD084300B0951F /* AppDelegate.m */,
 				B12DB09E17BD084300B0951F /* MainStoryboard.storyboard */,
@@ -176,6 +181,7 @@
 				B12DB09317BD084300B0951F /* main.m in Sources */,
 				B12DB09717BD084300B0951F /* AppDelegate.m in Sources */,
 				B12DB0A317BD084300B0951F /* ViewController.m in Sources */,
+				B1E7321817BD1217000E0BF4 /* CalcBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +297,7 @@
 				B12DB0A817BD084300B0951F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
